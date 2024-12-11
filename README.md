@@ -25,24 +25,19 @@ This project implements a chatbot using Natural Language Processing (NLP) techni
 
 ## Installation
 
-### 1. Clone the Repository
-```bash
-git clone <repository-url>
-cd <repository-directory>
-```
 
-### 2. Create a Virtual Environment (Optional but Recommended)
+### 1. Create a Virtual Environment (Optional but Recommended)
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```
 
-### 3. Install Required Packages
+### 2. Install Required Packages
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Download NLTK Data
+### 3. Download NLTK Data
 ```python
 import nltk
 nltk.download('punkt')
